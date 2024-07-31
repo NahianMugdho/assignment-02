@@ -231,4 +231,60 @@
 .habit-pics-content p{
   color: rgba(255, 255, 255, 0.5);
 }
+.third-page{
+  
+  width: 1060px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  /* justify-content:space-around; */
+  
+}
+.run-style{
+
+  border-radius: 18px;
+  width: 366px;
+  height: 312px;
+  
+  /* left: 662px;
+  top: 30px; */
+
+}
+
+.third-page-content{
  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 50px;
+}
+.third-page-head{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.third-page-para{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin: 14px 0px;
+  margin-bottom: 40px;
+}
+
+.third-page-pic{
+  
+  padding: 50px;
+}
+  
