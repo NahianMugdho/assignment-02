@@ -286,6 +286,7 @@
 .third-page-pic{
   
   padding: 50px;
+  
 }
 
 .color-white{
@@ -414,4 +415,139 @@ input {
 .table2{
   width: 100%;
   border-spacing: 10px 15px;
+}
+.fourth-class-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%; 
+  max-width: 1060px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+.image-grid{
+
+  border-radius: 18px;
+
+  width: 326.67px;
+  height: 272px;
+  /* Inside Auto Layout */
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0; 
+}
+
+
+.sixth-page{
+  
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-section1{
+   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 1059px;
+  margin-left: 190px;
+  margin-right: 190px;
+  /* margin-right: 192px;
+  margin-left: 192px; */
+  
+}
+
+
+.fitness-col1{
+  width: 443px;
+  /* width: 443px;
+  height: 176px; */
+}
+.fitness-col1-head{
+
+  color: rgb(230, 83, 60);
+  font-size: 70px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.fitness-col1-para{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-bottom: 75px;
+}
+
+.fitness-col2-list
+{
+  list-style: none;
+}
+.fitness-col2{
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}
+.fitness-col2-head{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: left;
+}
+.fitness-col3{
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}
+
+.fitness-col2-list{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  
+}
+.fitness-col2-list li {
+  margin-bottom: 8px;
+  gap: 10px;
+}
+.footer-section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.straight-line{
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: 1059.5px;
+height: 0;
+left: 189px;
+top: 394px;
+}
+.foot{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
 }
