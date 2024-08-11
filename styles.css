@@ -300,6 +300,8 @@
   margin-top: 70px;
   background: rgb(34, 34, 34);
 }
+
+
 .fourth-class-content{
   text-align: center;
   margin-bottom: 30px;
@@ -312,6 +314,7 @@
   font-weight: 900;
   letter-spacing: 0%;
   text-align: center;
+  width: 100%;
 }
 .fourth-class-para{
   color: rgba(255, 255, 255, 0.5);
@@ -429,18 +432,53 @@ input {
   margin: 0 auto; 
   padding: 20px;
 }
+.image-fourth {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+
 .image-grid{
 
   border-radius: 18px;
 
   width: 326.67px;
   height: 272px;
-  /* Inside Auto Layout */
+ 
   margin: 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/* ddddddddddddddd */
+.trainer-name, .trainer-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: Left;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto; 
+}
+
+.trainer-name {
+  bottom: 40px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.trainer-title {
+  bottom: 10px;
+  font-size: 1em;
+}
+
+
+
+
+/* ddddddddddd */
+
 .fifth-page {
   display: flex;
   flex-direction: column;
@@ -550,4 +588,205 @@ top: 394px;
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: left;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width: 576px) {
+
+
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+  }
+  .nav-item{
+    border: 2px solid rgb(255, 255, 255);
+    width: 18px;
+    height: 0;
+    left: 3px;
+    top: 18px;
+
+  }
+  .nav-link{
+    display: none;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  .navbar,.banner{
+
+ 
+    
+  }
+   /* .banner{
+    max-width:600px;
+    margin: 0 auto;
+  } */
+
+  .banner-pocket-up{
+   left: 330px;
+    bottom: -10px;
+    top: 700px;
+    right: -100px;
+    position: absolute;
+    
+  }
+
+  .banner-pocket{
+   
+    margin-top: -220px;
+    /* margin-right: -300px; */
+    margin-left: -70px;
+    align-items: center;
+    /* left: 764px;
+    top: 556px; */
+  }
+  .habit{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+    
+  }
+  .habit-pics{
+    display:grid ;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.habit{
+  margin-left: -170px;
+}
+.third-page{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* justify-content:space-around; */
+  
+}
+.third-page-content{
+ 
+ 
+  padding: 0px;
+  margin: 0px;
+}
+.third-page-pic{
+  
+  padding: 0px;
+  
+}
+.BMI{
+  flex-direction: column;
+  width: 100%;
+}
+.fourth-class-content{
+  
+  margin-bottom: 0px;
+
+  width: 100%;
+}
+.fourth-class{
+  
+
+  width: 100%;
+}
+.table1{
+  width: 100%;
+
+}
+td {
+  padding: 10px;
+  gap: 5px;
+}
+.chart{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.form-content{
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.table2{
+  width: 90%;
+}
+.calculator{
+
+  width: 100%;
+}
+.fourth-class-images {
+    grid-template-columns: repeat(1, 1fr);
+ 
+  /* grid-template-columns: repeat(, 1fr); */
+}
+.image-grid {
+  width: 100%;
+  height: auto; /* Let images adjust to the container's width */
+}
+
+.trainer-name, .trainer-title {
+  padding: 5px;
+  font-size: 1em; /* Adjust font size for smaller screens */
+}
+
+.trainer-title {
+  font-size: 0.9em;
+}
+.footer-section1{
+   
+  
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+  padding: 20px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  /* margin-right: 192px;
+  margin-left: 192px; */
+  
+}
+.fitness-col2{
+  margin: 0px;
+  
+  
+}
+.fitness-col3{
+  margin-right: 0px;
+  margin-left: 0px;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+  
+}
+.footer-section2{
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+  
+}
+.straight-line{
+  
+  width: 90%;
+height: 0;
+left: 0px;
+top: 0px;
+
+}
 }
