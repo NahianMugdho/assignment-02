@@ -154,8 +154,10 @@
   width: 200px;
   height: 150px;
   position: absolute;
-  left: 1300px;
+  left: 1050px;
   top: 260px; 
+  right: 0px;
+ 
 
   
 }
@@ -166,7 +168,7 @@
   line-height: 40px;
   letter-spacing: 1px;
   text-align: left;
-  margin-top: -2px;
+  margin-top: 2px;
  
 }
 .banner-pocket-up-para{
@@ -175,9 +177,13 @@
   font-weight: 400;
   text-align: left;
   margin-top: -30px;
+  margin-bottom: 2px;
 }
 .banner-pocket-up-coll{
-  padding: 30px;      
+  padding: 10px; 
+  margin-left: 10%;  
+  margin-right:10% ;   
+ 
 }
 .habit{
   color: rgb(255, 255, 255);
@@ -200,7 +206,12 @@
 
   font-size: 60px ;
   text-align:center;
-
+  color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 50px;
+   
 }
 .habit-content-para{
       color: rgba(255, 255, 255, 0.5);
@@ -378,7 +389,10 @@ text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 10px;
+  
 }
+
 
 .form-content>h2{
   color: rgb(255, 255, 255);
@@ -459,19 +473,20 @@ input {
   color: white;
   text-align: Left;
   padding: 5px 10px;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
   margin: 0 auto; 
 }
 
 .trainer-name {
   bottom: 40px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 .trainer-title {
   bottom: 10px;
   font-size: 1em;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 
@@ -590,11 +605,64 @@ top: 394px;
   text-align: left;
 }
 
+.fa-play {
+  font-size: 25px;  /* Adjust the size */
+  color: white;      /* Adjust the color */
+  align-items: center;
+  text-align: center;
+  margin-left: 12px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  
+}
+.videos{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  /* Frame 14 */
+
+width: 1140px;
+height: 514px;
+/* Auto layout */
+
+padding: 32px;
 
 
+/* Inside Auto Layout
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 48px 0px; */
+  
+}
+.Xtra-page-para{
+  padding: 20px;
+}
 
-@media screen and (min-width:320px) and (max-width: 576px) {
+.Xtra-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.padng{
+ padding-left: 200px;
+ padding-right: 200px;
+}
 
+.habit-pics-content>p{
+
+  /* padding: 40px; */
+
+}
+@media screen and (max-width: 576px) {
+  .pad-run{
+    padding: 20px;
+  }
+  .padng{
+    padding: 20px;
+  }
 
   .nav-links{
     display: flex;
@@ -622,25 +690,41 @@ top: 394px;
     
     
   }
-  .navbar,.banner{
+  .navbar{
 
- 
+    padding: 20px;
     
   }
    /* .banner{
     max-width:600px;
     margin: 0 auto;
   } */
-
+  .videos {
+    width: 100%; 
+    height: auto; 
+    padding: 30px; 
+  }
   .banner-pocket-up{
-   left: 330px;
-    bottom: -10px;
-    top: 700px;
-    right: -100px;
+   left: 350px;
+    bottom: 0px;
+    top: 1000px;
+   
     position: absolute;
+    width: 30%;
+    height: 20%;
     
   }
-
+  .banner-pocket-up-coll{
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .banner-pocket-up-title{
+    font-size: 1.5em ;
+  }
+  .banner-pocket-up-para{
+    font-size: 1em ;
+   
+  }
   .banner-pocket{
    
     margin-top: -220px;
@@ -656,7 +740,8 @@ top: 394px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  width: 100%;
+  text-align: center;
     
   }
   .habit-pics{
@@ -666,11 +751,10 @@ top: 394px;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    
 
 }
-.habit{
-  margin-left: -170px;
-}
+
 .third-page{
   display: flex;
   flex-direction: column;
@@ -730,17 +814,18 @@ td {
 }
 .fourth-class-images {
     grid-template-columns: repeat(1, 1fr);
+    width: 80%;
  
   /* grid-template-columns: repeat(, 1fr); */
 }
 .image-grid {
   width: 100%;
-  height: auto; /* Let images adjust to the container's width */
+  height: auto; 
 }
 
 .trainer-name, .trainer-title {
   padding: 5px;
-  font-size: 1em; /* Adjust font size for smaller screens */
+  /* font-size: 1em;  */
 }
 
 .trainer-title {
@@ -789,4 +874,89 @@ left: 0px;
 top: 0px;
 
 }
+
+.btn-primary{
+  width: 80%;
+}
+.btn-second{
+  width: 80%;
+}
+
+.btn-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.third-page-content>button{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.third-page-pic{
+  padding: 50px;
+}
+.banner-description{
+  padding: 30px;
+}
+.banner-title{
+  padding: 20px;
+}
+.calculator button{
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 20px;
+}
+.fitness-col1-para{
+  width: 80%;
+}
+
+.btn-flex>.btn-primary{
+  width: 40%;
+}
+.btn-flex>.btn-second{
+  width: 40%;
+}
+
+
+
+
+
+}
+@media screen and (max-width: 430px) {
+
+  .banner-pocket-up{
+    left: 250px;
+     bottom: 0px;
+     top: 1100px;
+    
+     position: absolute;
+     width: 30%;
+     height: 20%;
+     
+   }
+
+
+   .banner-pocket{
+
+  
+
+    width: 200px;
+    height: 96px;
+    /* margin-right: -300px; */
+    margin-left: 3px;
+    align-items: center;
+    /* left: 764px;
+    top: 556px; */
+  }
+  .padng{
+    padding: 20px;
+  }
+  .pad-run{
+    padding: 20px;
+  }
 }
