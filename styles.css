@@ -257,9 +257,10 @@
 .run-style{
 
   border-radius: 18px;
-  width: 366px;
-  height: 312px;
-  
+  object-fit: none;
+  object-position: 67% 34%;
+  Height : 24rem ;
+  width: 22rem;
   /* left: 662px;
   top: 30px; */
 
