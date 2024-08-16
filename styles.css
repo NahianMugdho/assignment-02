@@ -101,6 +101,7 @@
     padding: 16px 40px 16px 40px;
     background: none;
     color: rgb(255, 255, 255);
+    font-weight: 600;
   }
   .bg-second{
     background: linear-gradient(to bottom, #000000,#434343, #000000);
